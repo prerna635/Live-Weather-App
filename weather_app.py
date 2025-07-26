@@ -7,7 +7,7 @@ def get_weather():
         result_label.config(text="⚠️ Please enter a city name!")
         return
 
-    api_key = "e5b352ba46605196d6dd67d6daa699e7"
+    api_key = "your_api_key"
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
 
     try:
